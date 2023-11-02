@@ -1,6 +1,6 @@
 # CircuitSwitching
 PROJECT DETAILS
- * Author   :   Soham Kapur
+ * Author   :   Soham Kapur, Koushiki Sinha
  * Year     :   2023
  * Title    :   Circuit Switching using Dynamic Programming
  * Purpose  :   Undergraduate Graded Project
