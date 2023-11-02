@@ -47,9 +47,14 @@ public class CN_Proj
 
     int v = Graph[0].length;
     boolean visited[] = new boolean[v];
-    static ArrayList<ArrayList<Integer>>[] allPaths; //Data structure to store all possible paths between 2 nodes
-    static ArrayList<Integer>[] distances; //Data structure to store total distance or weight of each path between 2 given nodes
-    static ArrayList<Integer>[] FinalPaths; //Data Structure to store the final set of paths that should be chosen
+    static ArrayList<ArrayList<Integer>>[] allPaths; 
+    //Data structure to store all possible paths between 2 nodes
+    
+    static ArrayList<Integer>[] distances;
+    //Data structure to store total distance or weight of each path between 2 given nodes
+    
+    static ArrayList<Integer>[] FinalPaths; 
+    //Data Structure to store the final set of paths that should be chosen
 
     // Constructor to initialise 'v', the number of nodes
     public CN_Proj()
