@@ -19,7 +19,7 @@
 //CODE BEGINS HERE:
 
 import java.util.*;
-public class CN_Proj
+public class CircuitSwitching
 {
     ArrayList<Integer>[] adjList;
     static int n=0, k=0, s[], d[], min=Integer.MAX_VALUE;
@@ -57,7 +57,7 @@ public class CN_Proj
     //Data Structure to store the final set of paths that should be chosen
 
     // Constructor to initialise 'v', the number of nodes
-    public CN_Proj()
+    public CircuitSwitching()
     {
         this.v = v;
         initAdjList();
@@ -278,7 +278,7 @@ public class CN_Proj
         for(i=0; i<n; i++)
             finalPath[i] = new ArrayList<>();
 
-        CN_Proj g = new CN_Proj();
+        CircuitSwitching g = new CircuitSwitching();
         for(i=0; i<n;i++)
         {
             System.out.println("Enter Source " + (i+1) + ":");
